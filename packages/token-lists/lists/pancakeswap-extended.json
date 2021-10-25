@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Extended",
-  "timestamp": "2021-10-22T09:05:26.555Z",
+  "timestamp": "2021-10-24T18:44:14.596Z",
   "version": {
     "major": 2,
     "minor": 16,
-    "patch": 32
+    "patch": 35
   },
   "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/logo.png",
   "keywords": [
@@ -1643,6 +1643,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/0xb6C53431608E626AC81a9776ac3e999c5556717c.png"
+    },
+    {
+      "name": "TOO Token",
+      "symbol": "TOO",
+      "address": "0x33Fea48c8e842a14c62dF14C83c79E43Dd6386fF",
+      "chainId": 56,
+      "decimals": 10,
+      "logoURI": "http://localhost:3000/images/tokens/0x33Fea48c8e842a14c62dF14C83c79E43Dd6386fF.png"
     },
     {
       "name": "TokenPocket",

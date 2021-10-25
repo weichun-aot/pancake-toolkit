@@ -1,5 +1,13 @@
 [
   {
+    "name": "TOO Token",
+    "symbol": "TOO",
+    "address": "0x33Fea48c8e842a14c62dF14C83c79E43Dd6386fF",
+    "chainId": 56,
+    "decimals": 10,
+    "logoURI": "http://localhost:3000/images/tokens/0x33Fea48c8e842a14c62dF14C83c79E43Dd6386fF.png"
+  },
+  {
     "name": "Wrapped UST Token",
     "symbol": "UST",
     "address": "0x23396cF899Ca06c4472205fC903bDB4de249D6fC",

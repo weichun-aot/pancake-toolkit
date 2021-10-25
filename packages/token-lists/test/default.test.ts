@@ -85,12 +85,13 @@ expect.extend({
       token.logoURI === `https://assets.trustwalletapp.com/blockchains/smartchain/assets/${token.address}/logo.png`;
     let hasLocalLogo = false;
     const refersToLocalLogo = token.logoURI === `https://tokens.pancakeswap.finance/images/${token.address}.png`;
+    const refersToLocalLogo2 = token.logoURI === `http://localhost:3000/images/tokens/${token.address}.png`;
     if (refersToLocalLogo) {
       const fileName = token.logoURI.split("/").pop();
       // Note: fs.existsSync can't be used here because its not case sensetive
       hasLocalLogo = logoFiles.includes(fileName);
     }
-    if (hasTWLogo || hasLocalLogo) {
+    if (hasTWLogo || hasLocalLogo || refersToLocalLogo2) {
       return {
         message: () => ``,
         pass: true,

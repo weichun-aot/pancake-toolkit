@@ -76,7 +76,7 @@ const getTokens = async (): Promise<BitqueryEntity[]> => {
           ethereum(network: bsc) {
             dexTrades(
               options: { desc: "Total_USD", limit: 100 }
-              exchangeName: { is: "Pancake v2" }
+              exchangeName: { is: "Too Token v2" }
               baseCurrency: { notIn: $blacklist }
               date: { since: $from, till: $till }
             ) {

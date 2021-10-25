@@ -2108,7 +2108,7 @@ exports[`renders correctly 1`] = `
             </div>
           </div>
         </div>
-         
+
       </div>
     </nav>
     <div
@@ -3247,7 +3247,7 @@ exports[`renders correctly 1`] = `
                   scale="sm"
                   target="_blank"
                 >
-                  Buy CAKE
+                  Buy TOO
                   <svg
                     class="c88"
                     color="#FFFFFF"

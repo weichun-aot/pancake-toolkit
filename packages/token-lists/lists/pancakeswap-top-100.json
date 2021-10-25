@@ -13,6 +13,14 @@
   ],
   "tokens": [
     {
+      "name": "TOO Token",
+      "symbol": "TOO",
+      "address": "0x33Fea48c8e842a14c62dF14C83c79E43Dd6386fF",
+      "chainId": 56,
+      "decimals": 10,
+      "logoURI": "http://localhost:3000/images/tokens/0x33Fea48c8e842a14c62dF14C83c79E43Dd6386fF.png"
+    },
+    {
       "name": "Cardano Token",
       "symbol": "ADA",
       "address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
