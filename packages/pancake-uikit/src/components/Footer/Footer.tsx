@@ -35,7 +35,7 @@ const MenuItem: React.FC<FooterProps> = ({
         <StyledIconMobileContainer display={["block", null, "none"]}>
           <LogoWithTextIcon isDark width="130px" />
         </StyledIconMobileContainer>
-        <FleImagex
+        <Flex
           order={[2, null, 1]}
           flexDirection={["column", null, "row"]}
           justifyContent="space-between"
@@ -63,7 +63,7 @@ const MenuItem: React.FC<FooterProps> = ({
           <Box display={["none", null, "block"]}>
             <LogoWithTextIcon isDark width="160px" />
           </Box>
-        </FleImagex>
+        </Flex>
         <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
         <StyledToolsContainer
           order={[1, null, 3]}
