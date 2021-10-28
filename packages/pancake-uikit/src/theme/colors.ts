@@ -12,7 +12,7 @@ export const baseColors = {
 
 export const additionalColors = {
   binance: "#F0B90B",
-  overlay: "#452a7a",
+  overlay: "#8DA286",
   gold: "#FFC700",
   silver: "#B2B2B2",
   bronze: "#E7974D",
@@ -35,7 +35,7 @@ export const lightColors: Colors = {
   tertiary: "#EFF4F5",
   text: "#280D5F",
   textDisabled: "#BDC2C4",
-  textSubtle: "#7A6EAA",
+  textSubtle: "#8DA286",
   disabled: "#E9EAEB",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #E5FDFF 0%, #F3EFFF 100%)",
@@ -67,7 +67,7 @@ export const darkColors: Colors = {
   tertiary: "#353547",
   text: "#EEFFF5",
   textDisabled: "#617164",
-  textSubtle: "#ADD2B1",
+  textSubtle: "#FFFFFF",
   disabled: "#4B6352",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
